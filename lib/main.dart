@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:talk_ease/Constants/colors.dart';
+import 'package:talk_ease/Screens/conversation_screen.dart';
 import 'package:talk_ease/Screens/onboarding_screen.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         appBarTheme: const AppBarTheme(backgroundColor: Pallete.appbarColor),
         useMaterial3: true,
       ),
-      home: const OnboardingScreen(),
+      home: const ConversationScreen(),
     );
   }
 }
