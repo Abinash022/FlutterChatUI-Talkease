@@ -41,7 +41,7 @@ class _ChatCardState extends State<ChatCard> {
                 data.message,
                 style: const TextStyle(
                   color: Pallete.secondaryTextColor,
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w700,
                   fontSize: 14.0,
                 ),
               ),

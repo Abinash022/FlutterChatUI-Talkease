@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:talk_ease/Constants/colors.dart';
+import 'package:talk_ease/Screens/status_screen.dart';
 import 'package:talk_ease/Widgets/chat_card.dart';
 
 class ConversationScreen extends StatelessWidget {
@@ -84,17 +85,7 @@ class ConversationScreen extends StatelessWidget {
         body: const TabBarView(
           children: [
             ChatCard(),
-            Center(
-              child: Text(
-                'Hey 2',
-                style: TextStyle(
-                  color: Pallete.mainTextColor,
-                  fontFamily: 'Nunito',
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20.0,
-                ),
-              ),
-            ),
+            StatusScreen(),
             Center(
               child: Text(
                 'Hey 3',
@@ -108,14 +99,14 @@ class ConversationScreen extends StatelessWidget {
             )
           ],
         ),
-        floatingActionButton: FloatingActionButton(
-          backgroundColor: Pallete.buttonColor,
-          onPressed: () {},
-          child: const Icon(
-            Icons.textsms_outlined,
-            color: Pallete.mainTextColor,
-          ),
-        ),
+        // floatingActionButton: FloatingActionButton(
+        //   backgroundColor: Pallete.buttonColor,
+        //   onPressed: () {},
+        //   child: const Icon(
+        //     Icons.textsms_outlined,
+        //     color: Pallete.mainTextColor,
+        //   ),
+        // ),
       ),
     );
   }
