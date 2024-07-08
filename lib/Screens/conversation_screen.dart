@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:talk_ease/Constants/colors.dart';
+import 'package:talk_ease/Screens/call_screen.dart';
 import 'package:talk_ease/Screens/status_screen.dart';
 import 'package:talk_ease/Widgets/chat_card.dart';
 
@@ -86,17 +87,7 @@ class ConversationScreen extends StatelessWidget {
           children: [
             ChatCard(),
             StatusScreen(),
-            Center(
-              child: Text(
-                'Hey 3',
-                style: TextStyle(
-                  color: Pallete.mainTextColor,
-                  fontFamily: 'Nunito',
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20.0,
-                ),
-              ),
-            )
+            CallScreen(),
           ],
         ),
         // floatingActionButton: FloatingActionButton(
