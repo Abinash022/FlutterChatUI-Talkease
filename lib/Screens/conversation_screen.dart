@@ -90,14 +90,6 @@ class ConversationScreen extends StatelessWidget {
             CallScreen(),
           ],
         ),
-        // floatingActionButton: FloatingActionButton(
-        //   backgroundColor: Pallete.buttonColor,
-        //   onPressed: () {},
-        //   child: const Icon(
-        //     Icons.textsms_outlined,
-        //     color: Pallete.mainTextColor,
-        //   ),
-        // ),
       ),
     );
   }
