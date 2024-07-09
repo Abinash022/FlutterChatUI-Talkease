@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         appBarTheme: const AppBarTheme(backgroundColor: Pallete.appbarColor),
         useMaterial3: true,
       ),
-      home: const ConversationScreen(),
+      home: const OnboardingScreen(),
     );
   }
 }

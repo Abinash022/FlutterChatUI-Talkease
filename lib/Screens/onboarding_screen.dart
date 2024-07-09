@@ -14,25 +14,8 @@ class OnboardingScreen extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.only(top: 30.0),
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  'Assets/Images/talk-infection.png',
-                  color: Pallete.mainTextColor,
-                  scale: 6.0,
-                ),
-                const SizedBox(height: 12),
-                const Text(
-                  'Talkease',
-                  style: TextStyle(
-                    color: Pallete.mainTextColor,
-                    fontFamily: 'Nunito',
-                    fontWeight: FontWeight.bold,
-                    fontStyle: FontStyle.italic,
-                    fontSize: 27.0,
-                  ),
-                ),
-                const SizedBox(height: 20),
                 Image.asset(
                   'Assets/Images/online-shopping-concept.png',
                   scale: 2.8,
